@@ -7,7 +7,8 @@
     "start": "babel-node index.js",
     "test": "NODE_ENV=test mocha test/**/*.js",
     "lint": "eslint *.js libs/*.js models/*.js routes/*.js test/*.js",
-    "apidoc": "apidoc -i routes/ -o public/apidoc"
+    "apidoc": "apidoc -i routes/ -o public/apidoc",
+    "seeders": "sequelize db:seed:all"
   },
   "keywords": [
     "node",

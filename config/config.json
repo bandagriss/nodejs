@@ -1,0 +1,19 @@
+{
+  "username": "roy",
+  "password": "bandagriss",
+  "database": "practica",
+  "host": "127.0.0.1",
+  "dialect": "postgres",
+  
+  "migrationStorage": "sequelize",
+  "migrationStorageTableName": "sequelize_migration",
+
+  "seederStorage": "sequelize",
+  "seederStorageTableName": "sequelize_seeders",
+  "pool": {
+    "max": 15,
+    "min": 0,
+    "idle": 10000
+  }
+  
+}
