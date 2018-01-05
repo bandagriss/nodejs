@@ -1,0 +1,12 @@
+/nbproject/private/
+libs/config.development.js
+/nbproject/
+/logs/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Optional REPL history
+.node_repl_history
